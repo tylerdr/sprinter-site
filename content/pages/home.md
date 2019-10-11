@@ -13,4 +13,8 @@ meta:
   description: This is a meta description.
   title: Sprinter Consulting
 ---
-# _**Our mission is to unlock human potential by leveraging the power of technology to have the most positive impact.**_
+# 
+
+![](https://ucarecdn.com/42d302a0-0925-4b5f-883a-8a0f9dde75fd/)
+
+# **_Our mission is to unlock human potential by leveraging the power of technology to have the most positive impact._**
