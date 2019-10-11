@@ -13,4 +13,4 @@ meta:
   description: This is a meta description.
   title: Sprinter Consulting
 ---
-Our missions is to unlock human potential by leveraging the power of the latest technology.
+Our mission is to unlock human potential by leveraging the power of the latest technology... etc
