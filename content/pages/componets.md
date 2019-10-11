@@ -17,7 +17,7 @@ section1: >-
   vel est ut proin dis auctor. Suscipit sceler isque orci magna interdum vel
   bibendum duis netus a consectetur dui magnis ac aliquet sem posuere tincidunt
   vestibulum.
-section2: '## https://spark.adobe.com/video/rbYHpQzSe70w7'
+section2: '##'
 video: 'https://ucarecdn.com/73d84b3b-a3ba-40b9-98df-07a5b56ff753/'
 videoPoster: 'https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/'
 videoTitle: 'Also background videos, with poster image & title overlay.'
