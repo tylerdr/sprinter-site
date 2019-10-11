@@ -1,7 +1,7 @@
 ---
 template: HomePage
 slug: ''
-title: 'Sprinter Consulting '
+title: Sprinter Consulting LLC
 featuredImage: 'https://ucarecdn.com/b90d2546-cf72-4575-9c8f-e4bb2b195f52/'
 subtitle: Discovering Tomorrow's Technology Today
 accordion:
