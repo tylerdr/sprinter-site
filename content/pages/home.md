@@ -2,7 +2,7 @@
 template: HomePage
 slug: ''
 title: Sprinter Consulting
-featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
+featuredImage: 'https://ucarecdn.com/b90d2546-cf72-4575-9c8f-e4bb2b195f52/'
 subtitle: Discovering Tomorrow's Technology Today
 accordion:
   - content: Link to what we do...
