@@ -15,7 +15,7 @@ An opinionated starter project for creating lightning-fast websites with [Gatsby
 
 ## Get going
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thriveweb/yellowcake&stack=cms)
+<!-- [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/twd-0004/sprinter-site&stack=cms)
 
 1.  Hit the **Deploy to Netlify** button. This will:
 
@@ -26,7 +26,7 @@ An opinionated starter project for creating lightning-fast websites with [Gatsby
 
 - Enable **Identity**
 - Change **Registration Preferences** to **Invite Only**
-- Enable **Git Gateway**
+- Enable **Git Gateway** -->
 
 1.  Invite users (probably yourself) to enable admin access
 
@@ -34,7 +34,7 @@ An opinionated starter project for creating lightning-fast websites with [Gatsby
 
 ## Show me the CMS!
 
-The CMS lives at [\_\_YOUR_SITE_NAME\_\_.netlify.com/admin](https://__YOUR_SITE_NAME__.netlify.com/admin).
+The CMS lives at [sprinter.netlify.com/admin](https://sprinter.netlify.com/admin).
 
 ## Developing
 
@@ -139,4 +139,4 @@ https://hooks.zapier.com/hooks/catch/2881617/ea5exg/
 
 ## Instagram Feed
 
-Get Your Instagram Access Token [here](https://generator.thrivex.io/). In order to display your Instagram photos on your own website, you are required to provide an Instagram Access Token. You can do this by clicking the generator button on this site you will first need to login to your account.
+Get Your Instagram Access Token. In order to display your Instagram photos on your own website, you are required to provide an Instagram Access Token. You can do this by clicking the generator button on this site you will first need to login to your account.
