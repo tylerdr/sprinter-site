@@ -5,7 +5,7 @@ title: 'Sprinter Consulting '
 featuredImage: 'https://ucarecdn.com/b90d2546-cf72-4575-9c8f-e4bb2b195f52/'
 subtitle: '# **Discovering Tomorrow''s Technology Today**'
 accordion:
-  - content: Link to what we do...
+  - content: 'https://spark.adobe.com/page/X0lysa1ZJvuiM/'
     title: What We Do
   - content: Link to how we do it...
     title: How We Do It
