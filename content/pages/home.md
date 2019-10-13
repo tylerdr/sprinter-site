@@ -15,8 +15,12 @@ meta:
 ---
 # 
 
-![](https://ucarecdn.com/343c3791-b740-4bce-842b-98d504cf1aeb/-/preview/)
+```
 
-![](https://ucarecdn.com/195fff33-6b08-4487-be58-b13de7e26f82/)
+```
 
-# _**Our mission is to unlock human potential by leveraging the power of technology to have the most positive impact.**_
+```
+
+```
+
+# **_Our mission is to unlock human potential by leveraging the power of technology to have the most positive impact._**
