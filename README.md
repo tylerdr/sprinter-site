@@ -111,14 +111,12 @@ That's it, you'r now ready to use scheduled content!!
 
 ## Mailchimp integration
 
-https://hooks.zapier.com/hooks/catch/2881617/ea5exg/
-
 - Go to [Zapier.com](https://zapier.com/) and login
 - Hit make a zap button in the right top corner
 - Search for webhook by Zapier and select catch hook and continue to next step
 - In most cases leave this field empty and continue
 - Copy the generated url
-- Now go to the [form settings](https://app.netlify.com/sites/yellowcake/settings/forms#outgoing-notifications) in you Netlify project
+- Now go to the [form settings](https://app.netlify.com/sites/sprinter/settings/forms#outgoing-notifications) in you Netlify project
 - Find the form notifications section click the add notification button
 - Select the option `outgoing webhook`
 - Set the event to listen for

@@ -3,7 +3,9 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
-# display_url: https://sprinter.netlify.com # This url will display in the top-right of the CMS
+publish_mode: editorial_workflow
+
+display_url: https://sprinter.digital # This url will display in the top-right of the CMS
 media_library:
   name: uploadcare
   config:
@@ -137,22 +139,24 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
-      - file: 'content/pages/componets.md'
-        label: 'Componets Page'
-        name: 'componets-page'
+      - file: 'content/pages/about-us.md'
+        label: 'About Us Page'
+        name: 'about-us-page'
         fields:
           - {
               label: Template,
               name: template,
               widget: hidden,
-              default: ComponetsPage,
+              default: AboutUsPage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: 'componets' }
+          - { label: Slug, name: slug, widget: hidden, default: 'about-us' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Images, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown }
           - { label: Section 1, name: section1, widget: markdown }
           - { label: Section 2, name: section2, widget: markdown }
+          - { label: Mission Statement, name: missionStatement, widget: markdown }
+          - { label: Vision Statement, name: visionStatement, widget: markdown }
           - { name: video, label: video, widget: file }
           - { name: videoPoster, label: videoPoster, widget: image }
           - { label: videoTitle, name: videoTitle, widget: string }

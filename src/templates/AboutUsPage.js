@@ -10,11 +10,13 @@ import BackgroundVideo from '../components/BackgroundVideo'
 import Popup from '../components/Popup'
 
 // Export Template for use in CMS preview
-export const ComponentsPageTemplate = ({
+export const AboutUsPageTemplate = ({
   title,
   subtitle,
   featuredImage,
   section1,
+  missionStatement,
+  visionStatement,
   section2,
   video,
   videoPoster,
@@ -31,7 +33,13 @@ export const ComponentsPageTemplate = ({
     />
     <section className="section">
       <div className="container">
-        <Content source={section1} />
+        <Content source={missionStatement} />
+      </div>
+    </section>
+
+    <section className="section">
+      <div className="container">
+        <Content source={visionStatement} />
       </div>
     </section>
 
@@ -70,19 +78,19 @@ export const ComponentsPageTemplate = ({
   </main>
 )
 
-const ComponentsPage = ({ data: { page } }) => (
+const AboutUsPage = ({ data: { page } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
   >
-    <ComponentsPageTemplate {...page} {...page.frontmatter} body={page.html} />
+    <AboutUsPageTemplate {...page} {...page.frontmatter} body={page.html} />
   </Layout>
 )
 
-export default ComponentsPage
+export default AboutUsPage
 
 export const pageQuery = graphql`
-  query ComponentsPage($id: String!) {
+  query AboutUsPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
       ...Gallery
