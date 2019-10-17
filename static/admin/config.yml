@@ -232,7 +232,7 @@ collections: # A list of collections the CMS should be able to edit
             widget: 'list'
             required: false
             fields:
-              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Title', name: 'title', widget: markdown }
               - { label: Content, name: content, widget: text }
           - label: 'Meta'
             required: false

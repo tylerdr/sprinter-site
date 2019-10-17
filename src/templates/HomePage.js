@@ -44,7 +44,7 @@ export const HomePageTemplate = ({ title,
     <section className="section">
       <div className="container">
       {aboutLinks.map((link, index) => (
-        <AboutUsLink title={link.title} content={link.content}/>
+        <AboutUsLink title={link.title}/>
       ))}
       </div>
     </section>
