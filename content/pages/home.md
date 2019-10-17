@@ -14,6 +14,8 @@ accordion:
     title: What We Do
   - content: Link to how we do it...
     title: How We Do It
+  - content: content
+    title: Why We Do It
 meta:
   description: This is a meta description.
   title: Sprinter Consulting
