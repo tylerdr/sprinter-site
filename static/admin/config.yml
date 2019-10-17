@@ -48,6 +48,8 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Address, name: address, widget: text }
           - { label: Phone, name: phone, widget: string }
           - { label: Email Address, name: email, widget: string }
+          - { label: Extra1, name: extra1, widget: markdown, required: false }
+          - { label: Extra2, name: extra2, widget: markdown, required: false }
           - name: locations
             label: locations
             widget: list
@@ -114,6 +116,8 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Title, name: title, widget: string }
           - { label: Featured Image, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown }
+          - { label: Extra1, name: extra1, widget: markdown, required: false }
+          - { label: Extra2, name: extra2, widget: markdown, required: false }
           - label: 'Meta'
             required: false
             name: 'meta'
@@ -156,6 +160,8 @@ collections: # A list of collections the CMS should be able to edit
           - { label: What We Do, name: whatWeDo, widget: markdown }
           - { label: How We Do It, name: howWeDo, widget: markdown }
           - { label: Why We Do It, name: whyWeDo, widget: markdown }
+          - { label: Extra1, name: extra1, widget: markdown, required: false }
+          - { label: Extra2, name: extra2, widget: markdown, required: false }
           - { name: video, label: video, widget: file }
           - { name: videoPoster, label: videoPoster, widget: image }
           - { label: videoTitle, name: videoTitle, widget: string }
@@ -216,6 +222,8 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Mission Statement, name: missionStatement, widget: markdown }
           - { label: Vision Statement, name: visionStatement, widget: markdown }
           - { label: Rich Text Section, name: richText, widget: markdown}
+          - { label: Extra1, name: extra1, widget: markdown, required: false }
+          - { label: Extra2, name: extra2, widget: markdown, required: false }
           - { name: video, label: video, widget: file }
           - { name: videoPoster, label: videoPoster, widget: image }
           - { label: videoTitle, name: videoTitle, widget: string }
