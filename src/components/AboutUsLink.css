@@ -1,0 +1,4 @@
+.linkTitle, .linkContent {
+    display: inline-block;
+    padding: 0.1em 0.5em; 
+}

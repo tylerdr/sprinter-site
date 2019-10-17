@@ -5,6 +5,7 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import BackgroundVideo from '../components/BackgroundVideo'
+import AboutUsLink from '../components/AboutUsLink'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title,
@@ -12,10 +13,10 @@ export const HomePageTemplate = ({ title,
    featuredImage,
    missionStatement,
    visionStatement,
-   richText,
    video,
    videoPoster,
-   videoTitle
+   videoTitle,
+   aboutLinks
    }) => (
   <main className="Home">
     <PageHeader
@@ -42,7 +43,9 @@ export const HomePageTemplate = ({ title,
     </section>
     <section className="section">
       <div className="container">
-        <Content source={richText} />
+      {aboutLinks.map((link, index) => (
+        <AboutUsLink title={link.title} content={link.content}/>
+      ))}
       </div>
     </section>
   </main>
@@ -76,6 +79,10 @@ export const pageQuery = graphql`
         video
         videoPoster
         videoTitle
+        aboutLinks {
+          title
+          content
+        }
         accordion {
           title
           description
