@@ -16,11 +16,11 @@ videoPoster: 'https://ucarecdn.com/0e262285-0c89-4147-a833-e8e82dab74b7/'
 videoTitle: '                                                                                                                                                                                                      '
 aboutLinks:
   - content: brief description
-    title: What We Do
+    title: '**_What_** We Do'
   - content: brief description
-    title: How We Do It
+    title: _How_ We Do It
   - content: brief description
-    title: Why We Do It
+    title: _Why_ ****We Do It
 meta:
   description: This is a meta description.
   title: Sprinter Consulting
