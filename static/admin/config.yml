@@ -155,8 +155,6 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Subtitle, name: subtitle, widget: markdown }
           - { label: Section 1, name: section1, widget: markdown }
           - { label: Section 2, name: section2, widget: markdown }
-          - { label: Mission Statement, name: missionStatement, widget: markdown }
-          - { label: Vision Statement, name: visionStatement, widget: markdown }
           - { name: video, label: video, widget: file }
           - { name: videoPoster, label: videoPoster, widget: image }
           - { label: videoTitle, name: videoTitle, widget: string }
@@ -213,6 +211,10 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Featured Image, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown }
           - { label: Body, name: body, widget: markdown }
+          - { label: Mission Statement, name: missionStatement, widget: markdown }
+          - { label: Vision Statement, name: visionStatement, widget: markdown }
+          - { label: Rich Text Section, name: richText, widget: markdown}
+
           - label: 'Accordion'
             name: 'accordion'
             widget: 'list'
