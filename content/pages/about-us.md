@@ -2,13 +2,13 @@
 template: AboutUsPage
 slug: about-us
 title: About Us
-featuredImage: 'https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/'
+featuredImage: 'https://ucarecdn.com/e5e28517-efc9-4eef-a82d-66e624bdf283/'
 subtitle: This is the components page subtitle.
 whatWeDo: '## What We Do'
 howWeDo: '## How We Do It'
 whyWeDo: '## Why We Do It'
 video: 'https://ucarecdn.com/73d84b3b-a3ba-40b9-98df-07a5b56ff753/'
-videoPoster: 'https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/'
+videoPoster: 'https://ucarecdn.com/d0a5c14a-57d5-4aad-a632-811b1a270d0b/'
 videoTitle: '                                                                     '
 accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse
