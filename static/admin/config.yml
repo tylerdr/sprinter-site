@@ -36,9 +36,6 @@ collections: # A list of collections the CMS should be able to edit
             }
           - { label: Slug, name: slug, widget: hidden, default: 'contact' }
           - { label: Title, name: title, widget: string }
-          - { label: Extra 1, name: extra1, widget: markdown, required: false }
-          - { label: Extra 2, name: extra2, widget: markdown, required: false }
-          - { label: Extra 3, name: extra3, widget: markdown, required: false }
           - {
               label: Featured Image,
               name: featuredImage,
@@ -117,9 +114,6 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Title, name: title, widget: string }
           - { label: Featured Image, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown }
-          - { label: Extra 1, name: extra1, widget: markdown, required: false}
-          - { label: Extra 2, name: extra2, widget: markdown, required: false}
-          - { label: Extra 3, name: extra3, widget: markdown, required: false}
           - label: 'Meta'
             required: false
             name: 'meta'
@@ -162,9 +156,6 @@ collections: # A list of collections the CMS should be able to edit
           - { label: What We Do, name: whatWeDo, widget: markdown }
           - { label: How We Do It, name: howWeDo, widget: markdown }
           - { label: Why We Do It, name: whyWeDo, widget: markdown }
-          - { label: Extra 1, name: extra1, widget: markdown, required: false }
-          - { label: Extra 2, name: extra2, widget: markdown, required: false }
-          - { label: Extra 3, name: extra3, widget: markdown, required: false }
           - { name: video, label: video, widget: file }
           - { name: videoPoster, label: videoPoster, widget: image }
           - { label: videoTitle, name: videoTitle, widget: string }
@@ -228,10 +219,6 @@ collections: # A list of collections the CMS should be able to edit
           - { name: video, label: video, widget: file }
           - { name: videoPoster, label: videoPoster, widget: image }
           - { label: videoTitle, name: videoTitle, widget: string }
-          - { label: Extra 1, name: extra1, widget: markdown, required: false}
-          - { label: Extra 2, name: extra2, widget: markdown, required: false}
-          - { label: Extra 3, name: extra3, widget: markdown, required: false }
-
           - label: 'About Links'
             name: 'aboutLinks'
             widget: 'list'
