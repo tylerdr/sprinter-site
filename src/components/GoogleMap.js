@@ -20,13 +20,13 @@ class GoogleMap extends Component {
     return (
       // Important! Always set the container height explicitly
       <div style={{ height: '50vh', width: '100%' }}>
-        <GoogleMapReact
+        {/* <GoogleMapReact
           bootstrapURLKeys={{ key: mapkey }}
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
         >
-          {/* <Marker lat={-28.0914483} lng={153.4425208} text={'Kreyser Avrora'} /> */}
-        </GoogleMapReact>
+        </GoogleMapReact> */}
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=14kzIy1-akwT3TDnrhufbzEmztvBWbZmj" width="100%" height="480"></iframe>
       </div>
     )
   }
