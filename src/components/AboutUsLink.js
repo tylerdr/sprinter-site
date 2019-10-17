@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import './AboutUsLink.css'
+import Content from '../components/Content'
 
 const AboutUsLink = ({
     title,
@@ -8,7 +9,7 @@ const AboutUsLink = ({
 }) => (
     <Link to='/about-us/' className="link" >
         <div className={`AboutLink ${title}`}>
-            {title}
+            <Content source={title}/>
         </div>
     </Link>
 )
