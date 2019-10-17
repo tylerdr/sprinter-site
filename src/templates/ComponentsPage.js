@@ -6,11 +6,7 @@ import Content from '../components/Content.js'
 import Layout from '../components/Layout.js'
 import Accordion from '../components/Accordion'
 import BackgroundVideo from '../components/BackgroundVideo'
-<<<<<<< HEAD
-import Gallery from '../components/Gallery'
-=======
 //import Gallery from '../components/Gallery'
->>>>>>> 85992eba5e111c8cd42376947963f377769db9b7
 import Popup from '../components/Popup'
 
 // Export Template for use in CMS preview
@@ -39,26 +35,12 @@ export const ComponentsPageTemplate = ({
       </div>
     </section>
 
-<<<<<<< HEAD
-    <section className="section">
-=======
     {/* <section className="section">
->>>>>>> 85992eba5e111c8cd42376947963f377769db9b7
       <div className="container">
         <h2>Our gallery component</h2>
         <Gallery images={gallery} />
       </div>
-<<<<<<< HEAD
-    </section>
-
-    <section className="section">
-      <div className="container">
-        <Content source={section2} />
-      </div>
-    </section>
-=======
     </section> */}
->>>>>>> 85992eba5e111c8cd42376947963f377769db9b7
 
     <section className="BackgroundVideo-section section">
       <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
@@ -74,13 +56,7 @@ export const ComponentsPageTemplate = ({
 
     <section className="section">
       <div className="container">
-<<<<<<< HEAD
-        <Popup>
-          <Content source={section1} />
-        </Popup>
-      </div>
-    </section>
-=======
+
         <Content source={section2} />
       </div>
     </section>
@@ -92,7 +68,6 @@ export const ComponentsPageTemplate = ({
         </Popup>
       </div>
     </section> */}
->>>>>>> 85992eba5e111c8cd42376947963f377769db9b7
   </main>
 )
 
