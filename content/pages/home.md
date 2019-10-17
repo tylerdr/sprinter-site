@@ -5,29 +5,15 @@ title: 'Sprinter Consulting '
 featuredImage: 'https://ucarecdn.com/b90d2546-cf72-4575-9c8f-e4bb2b195f52/'
 subtitle: '# **Discovering Tomorrow''s Technology Today**'
 missionStatement: >-
-  Our mission is to unlock human potential by leveraging the power of technology
-  to have the most positive impact.
+  # Our mission is to unlock human potential by leveraging the power of
+  technology to have the most positive impact.
 visionStatement: Vision Statement
 richText: Rich Text Area
-accordion:
-  - content: 'https://spark.adobe.com/page/X0lysa1ZJvuiM/'
-    title: What We Do
-  - content: Link to how we do it...
-    title: How We Do It
-  - content: content
-    title: Why We Do It
+video: 'https://ucarecdn.com/11e5e0cf-ac08-4582-ab13-db4992234a21/'
+videoPoster: 'https://ucarecdn.com/0e262285-0c89-4147-a833-e8e82dab74b7/'
+videoTitle: Intro Video
 meta:
   description: This is a meta description.
   title: Sprinter Consulting
 ---
-# 
-
-```
-
-```
-
-```
-
-```
-
-# **_Our mission is to unlock human potential by leveraging the power of technology to have the most positive impact._**
+# Our mission is to unlock human potential by leveraging the power of technology to have the most positive impact.
