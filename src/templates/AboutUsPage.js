@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content.js'
 import Layout from '../components/Layout.js'
-import Accordion from '../components/Accordion'
+//import Accordion from '../components/Accordion'
 //import Gallery from '../components/Gallery'
 //import Popup from '../components/Popup'
 
@@ -13,15 +13,9 @@ export const AboutUsPageTemplate = ({
   title,
   subtitle,
   featuredImage,
-  section1,
-  missionStatement,
-  visionStatement,
-  section2,
-  video,
-  videoPoster,
-  videoTitle,
-  accordion,
-  body,
+  whatWeDo,
+  whyWeDo,
+  howWeDo,
   gallery
 }) => (
   <main>
@@ -32,13 +26,18 @@ export const AboutUsPageTemplate = ({
     />
     <section className="section">
       <div className="container">
-        <Content source={missionStatement} />
+        <Content source={whatWeDo} />
       </div>
     </section>
 
     <section className="section">
       <div className="container">
-        <Content source={visionStatement} />
+        <Content source={howWeDo} />
+      </div>
+    </section>
+    <section className="section">
+      <div className="container">
+        <Content source={whyWeDo} />
       </div>
     </section>
 
@@ -48,20 +47,6 @@ export const AboutUsPageTemplate = ({
         <Gallery images={gallery} />
       </div>
     </section> */}
-
-  
-
-    <section className="section">
-      <div className="container">
-        <Accordion items={accordion} />
-      </div>
-    </section>
-
-    <section className="section">
-      <div className="container">
-        <Content source={section2} />
-      </div>
-    </section>
 
     {/* <section className="section">
       <div className="container">
@@ -87,14 +72,14 @@ export default AboutUsPage
 export const pageQuery = graphql`
   query AboutUsPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
-      ...Meta
-      ...Gallery
-      html
       frontmatter {
         title
         template
         subtitle
         featuredImage
+        whatWeDo
+        whyWeDo
+        howWeDo
         accordion {
           title
           description
