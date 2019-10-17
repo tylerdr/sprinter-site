@@ -26,7 +26,7 @@ class GoogleMap extends Component {
           defaultZoom={this.props.zoom}
         >
         </GoogleMapReact> */}
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=14kzIy1-akwT3TDnrhufbzEmztvBWbZmj" width="100%" height="480"></iframe>
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=14kzIy1-akwT3TDnrhufbzEmztvBWbZmj" width="100%" height="100%"></iframe>
       </div>
     )
   }
