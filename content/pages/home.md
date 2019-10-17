@@ -20,7 +20,7 @@ aboutLinks:
   - content: brief description
     title: '**_How_** We Do It'
   - content: brief description
-    title: '**_Why** _We Do It'
+    title: '**_Why_** We Do It'
 meta:
   description: This is a meta description.
   title: Sprinter Consulting
