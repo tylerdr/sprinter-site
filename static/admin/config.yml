@@ -36,7 +36,7 @@ collections: # A list of collections the CMS should be able to edit
             }
           - { label: Slug, name: slug, widget: hidden, default: 'contact' }
           - { label: Title, name: title, widget: string }
-          - { label: Extra 1, name: extra1, widget: markdown, required: false}
+          - { label: Extra 1, name: extra1, widget: markdown, required: false }
           - { label: Extra 2, name: extra2, widget: markdown, required: false }
           - { label: Extra 3, name: extra3, widget: markdown, required: false }
           - {
