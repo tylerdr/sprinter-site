@@ -18,9 +18,9 @@ aboutLinks:
   - content: brief description
     title: What We Do
   - content: brief description
-    title: How We Do
+    title: How We Do It
   - content: brief description
-    title: Why We Do
+    title: Why We Do It
 meta:
   description: This is a meta description.
   title: Sprinter Consulting
