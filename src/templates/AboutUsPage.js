@@ -100,11 +100,9 @@ export const pageQuery = graphql`
         template
         subtitle
         featuredImage
-        section1
-        section2
-        video
-        videoPoster
-        videoTitle
+        whatWeDo
+        howWeDo
+        whyWeDo
         accordion {
           title
           description
