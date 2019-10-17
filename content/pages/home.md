@@ -12,6 +12,13 @@ richText: Rich Text Area
 video: 'https://ucarecdn.com/11e5e0cf-ac08-4582-ab13-db4992234a21/'
 videoPoster: 'https://ucarecdn.com/0e262285-0c89-4147-a833-e8e82dab74b7/'
 videoTitle: Intro Video
+aboutLinks:
+  - content: brief description
+    title: What We Do
+  - content: brief description
+    title: How We Do
+  - content: brief description
+    title: Why We Do
 meta:
   description: This is a meta description.
   title: Sprinter Consulting
