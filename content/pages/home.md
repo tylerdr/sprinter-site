@@ -2,7 +2,7 @@
 template: HomePage
 slug: ''
 title: 'Sprinter Consulting '
-featuredImage: 'https://ucarecdn.com/862a1a3e-a2c4-4547-b941-d94d38b3edc7/'
+featuredImage: 'https://ucarecdn.com/fcb18118-47fa-4f51-b228-47037bf209c1/'
 subtitle: '# **Discovering Tomorrow''s Technology Today**'
 missionStatement: >-
   # Our mission is to unlock human potential by leveraging the power of
@@ -11,8 +11,8 @@ missionStatement: >-
 
   ![](https://ucarecdn.com/d9404712-a223-41e6-9681-13802287da42/)
 visionStatement: >-
-  # _**We envision a world where work and life are seamlessly intertwined
-  through the freeing power of modern technology.**_
+  # **_We envision a world where work and life are seamlessly intertwined
+  through the freeing power of modern technology._**
 
 
   ![]()
