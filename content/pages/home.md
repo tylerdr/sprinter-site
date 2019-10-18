@@ -2,7 +2,7 @@
 template: HomePage
 slug: ''
 title: 'Sprinter Consulting '
-featuredImage: 'https://ucarecdn.com/b90d2546-cf72-4575-9c8f-e4bb2b195f52/'
+featuredImage: 'https://ucarecdn.com/53c0a8fa-c5a6-4af7-8120-bf87857989eb/'
 subtitle: '# **Discovering Tomorrow''s Technology Today**'
 missionStatement: >-
   # Our mission is to unlock human potential by leveraging the power of
