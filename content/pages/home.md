@@ -11,8 +11,8 @@ missionStatement: >-
 
   ![](https://ucarecdn.com/d9404712-a223-41e6-9681-13802287da42/)
 visionStatement: >-
-  # _**We envision a world where work and life are seamlessly intertwined
-  through the freeing power of modern technology.**_
+  # **_We envision a world where work and life are seamlessly intertwined
+  through the freeing power of modern technology._**
 
 
   ![]()
