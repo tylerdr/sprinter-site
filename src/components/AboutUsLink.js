@@ -7,9 +7,15 @@ const AboutUsLink = ({
     title,
     content
 }) => (
+
     <Link to='/about-us/' className="link" >
-        <div className={`AboutLink ${title}`}>
+        <div className={`AboutLink`}>
+            <span className="title">
             <Content source={title}/>
+            </span>
+            <span className="content">
+            <Content source={content}/>
+            </span>
         </div>
     </Link>
 )
