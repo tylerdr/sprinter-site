@@ -11,8 +11,8 @@ missionStatement: >-
 
   ![](https://ucarecdn.com/d9404712-a223-41e6-9681-13802287da42/)
 visionStatement: >-
-  # _**We envision a world where work and life are seamlessly intertwined
-  through the freeing power of modern technology.**_
+  # **_We envision a world where work and life are seamlessly intertwined
+  through the freeing power of modern technology._**
 
 
   ![]()
@@ -22,11 +22,11 @@ videoPoster: 'https://ucarecdn.com/0e262285-0c89-4147-a833-e8e82dab74b7/'
 videoTitle: '                                                                                                                                                                                                      '
 aboutLinks:
   - content: We Do
-    title: _**What**_
+    title: '**What**'
   - content: We Do It
-    title: _**How**_
+    title: '**How**'
   - content: We Do It
-    title: _**Why**_
+    title: '**Why**'
 meta:
   description: This is a meta description.
   title: Sprinter Consulting
