@@ -6,7 +6,7 @@ featuredImage: 'https://ucarecdn.com/e5e28517-efc9-4eef-a82d-66e624bdf283/'
 subtitle: >-
   # We are a global team of elite problem solvers unified by the shared goal of
   changing the world through technology.
-whatWeDo: '## What We Do'
+whatWeDo: '# What We Do'
 howWeDo: '## How We Do It'
 whyWeDo: '## Why We Do It'
 video: 'https://ucarecdn.com/73d84b3b-a3ba-40b9-98df-07a5b56ff753/'
