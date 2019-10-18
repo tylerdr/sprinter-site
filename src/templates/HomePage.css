@@ -1,0 +1,9 @@
+.Content--Image, .Content img {
+    min-width: 100%;
+}
+
+.text {
+    text-align: center;
+    font-size: 1.5em;
+}
+
