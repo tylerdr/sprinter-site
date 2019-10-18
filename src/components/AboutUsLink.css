@@ -9,7 +9,7 @@
     transition: all 0.15s ease-in-out;
     overflow: hidden;
     text-align: center;
-    font-size: 3.0em;
+    font-size: 2.8em;
     color: #0072F9;
     margin: 0.35em;
   }
@@ -17,9 +17,8 @@
   .AboutLink:hover,
   .AboutLink:focus {
     transform: translateY(-1px);
-    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.15);
-    color: white;
-    background-color: #0072F9;
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.30);
+ 
   }
 
   .link {
@@ -29,3 +28,14 @@
   p {
     margin-bottom: 0em;
   }
+
+  .Content {
+    display: inline-block;
+    padding: 0.1em;
+  }
+
+  .links .Content strong {
+    text-decoration: underline;
+  }
+
+  

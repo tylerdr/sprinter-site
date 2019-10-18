@@ -5,11 +5,6 @@ import { SocialIcon } from 'react-social-icons';
 
 export default () => (
   <div>
-    <h2 className="taCenter">
-      Follow us on Instagram{' '}
-      <a href="https://instagram.com/sprinterconsulting/">@SprinterConsulting</a>
-    </h2>
-    <br />
     <InstagramFeed count="8" />
     <footer className="footer">
       <div className="container taCenter">

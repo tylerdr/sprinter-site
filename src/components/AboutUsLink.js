@@ -10,12 +10,8 @@ const AboutUsLink = ({
 
     <Link to='/about-us/' className="link" >
         <div className={`AboutLink`}>
-            <span className="title">
             <Content source={title}/>
-            </span>
-            <span className="content">
             <Content source={content}/>
-            </span>
         </div>
     </Link>
 )

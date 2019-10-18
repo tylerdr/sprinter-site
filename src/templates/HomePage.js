@@ -6,6 +6,7 @@ import Content from '../components/Content'
 import Layout from '../components/Layout'
 import BackgroundVideo from '../components/BackgroundVideo'
 import AboutUsLink from '../components/AboutUsLink'
+import './HomePage.css'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title,
@@ -27,12 +28,12 @@ export const HomePageTemplate = ({ title,
     />
 
     <section className="section">
-      <div className="container">
+      <div className="container text">
         <Content source={missionStatement} />
       </div>
     </section>
     <section className="section">
-      <div className="container">
+      <div className="container text">
         <Content source={visionStatement} />
       </div>
     </section>
@@ -42,9 +43,9 @@ export const HomePageTemplate = ({ title,
       </BackgroundVideo>
     </section>
     <section className="section">
-      <div className="container">
+      <div className="container links">
       {aboutLinks.map((link, index) => (
-        <AboutUsLink title={link.title}/>
+        <AboutUsLink title={link.title} content={link.content}/>
       ))}
       </div>
     </section>
