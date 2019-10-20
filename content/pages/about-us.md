@@ -6,8 +6,12 @@ featuredImage: 'https://ucarecdn.com/e5e28517-efc9-4eef-a82d-66e624bdf283/'
 subtitle: >-
   # We are a global team of elite problem solvers unified by the shared goal of
   bettering individual lives through technology.
-whatWeDo: |-
+whatWeDo: >-
   # **_What_ We Do**
+
+
+  ![](https://ucarecdn.com/5a9e7303-be81-47df-bddb-80669bbd8d76/-/preview/-/rotate/180/-/enhance/75/)
+
 
   ## We use technology to make businesses better.
 howWeDo: >-
