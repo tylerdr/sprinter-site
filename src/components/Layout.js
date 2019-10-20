@@ -4,6 +4,9 @@ import { StaticQuery, graphql } from 'gatsby'
 import Meta from './Meta'
 import Nav from './Nav'
 import Footer from './Footer'
+// import DarkModeToggle from './DarkModeToggle'
+// import { ThemeToggler } from 'gatsby-plugin-dark-mode'
+
 //import GithubCorner from './GithubCorner'
 
 import 'modern-normalize/modern-normalize.css'
@@ -52,6 +55,14 @@ export default ({ children, meta, title }) => {
 
         return (
           <Fragment>
+            <div
+              style={{
+                backgroundColor: 'var(--bg)',
+                color: 'var(--textNormal)',
+                transition: 'color 0.2s ease-out, background 0.2s ease-out',
+              }}
+            >
+
             <Helmet
               defaultTitle={siteTitle}
               titleTemplate={`%s | ${siteTitle}`}
@@ -73,13 +84,15 @@ export default ({ children, meta, title }) => {
               {...data.settingsYaml}
             />
 
-            {/* <GithubCorner url="https://github.com/thriveweb/yellowcake" /> */}
+            {/* <GithubCorner url="" /> */}
+
 
             <Nav subNav={subNav} />
 
             <Fragment>{children}</Fragment>
 
             <Footer />
+            </div>
           </Fragment>
         )
       }}

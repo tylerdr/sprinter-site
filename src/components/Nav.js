@@ -5,6 +5,7 @@ import { Menu, X } from 'react-feather'
 import Logo from './Logo'
 
 import './Nav.css'
+import DarkModeToggle from './DarkModeToggle'
 
 export class Navigation extends Component {
   state = {
@@ -85,6 +86,12 @@ export class Navigation extends Component {
             </div>
             <NavLink to="/contact/">Contact</NavLink>
           </div>
+          <div className={'mainDarkToggle'}>
+            <DarkModeToggle />
+          </div>
+
+          {active ? <DarkModeToggle /> : ''}
+
           <button
             className="Button-blank Nav--MenuButton"
             onClick={this.handleMenuToggle}

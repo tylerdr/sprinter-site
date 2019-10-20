@@ -3,15 +3,15 @@ const postcssPresetEnv = require('postcss-preset-env')
 module.exports = {
   siteMetadata: {
     title: 'Sprinter',
-    siteUrl: 'https://sprinter.netlify.com'
+    siteUrl: 'https://sprinter.digital'
   },
   plugins: [
+    // 'gatsby-plugin-use-dark-mode',
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
     {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
-        /*id: 'GTM-add_your_tag_here',*/
         id: 'GTM-NBZ5XR8',
         includeInDevelopment: false
       }
@@ -47,8 +47,8 @@ module.exports = {
         name: 'sprinter',
         short_name: 'sprinter',
         start_url: '/',
-        background_color: '#00C2BD',
-        theme_color: '#00C2BD',
+        background_color: '#0072f9',
+        theme_color: '#0072f9',
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: 'standalone',
@@ -120,7 +120,7 @@ module.exports = {
       resolve: 'gatsby-plugin-nprogress',
       options: {
         // Setting a color is optional.
-        color: 'white',
+        color: '#0072f9',
         // Disable the loading spinner.
         showSpinner: false
       }
