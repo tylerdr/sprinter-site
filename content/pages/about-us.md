@@ -5,10 +5,27 @@ title: About Us
 featuredImage: 'https://ucarecdn.com/e5e28517-efc9-4eef-a82d-66e624bdf283/'
 subtitle: >-
   # We are a global team of elite problem solvers unified by the shared goal of
-  changing the world through technology.
-whatWeDo: '# What We Do'
-howWeDo: '## How We Do It'
-whyWeDo: '## Why We Do It'
+  bettering individual lives through technology.
+whatWeDo: |-
+  # **_What_ We Do**
+
+  ## We use technology to make businesses better.
+howWeDo: >-
+  # **_How_ We Do It**
+
+
+  ## We do it by consulting first, and creating second. 
+
+
+  ## Unlike many software companies, we begin our process with the customer
+  instead of the product. This allows us to focus our efforts on your business
+  when designing the software, not the general market.
+whyWeDo: >-
+  # **_Why_ We Do It**
+
+
+  ## We do it because we believe technology is the key to unlocking human
+  potential.
 video: 'https://ucarecdn.com/73d84b3b-a3ba-40b9-98df-07a5b56ff753/'
 videoPoster: 'https://ucarecdn.com/d0a5c14a-57d5-4aad-a632-811b1a270d0b/'
 videoTitle: '                                                                     '
