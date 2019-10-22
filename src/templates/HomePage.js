@@ -6,6 +6,7 @@ import Content from '../components/Content'
 import Layout from '../components/Layout'
 import BackgroundVideo from '../components/BackgroundVideo'
 import AboutUsLink from '../components/AboutUsLink'
+import Image from '../components/Image'
 import './HomePage.css'
 
 // Export Template for use in CMS preview
@@ -17,7 +18,8 @@ export const HomePageTemplate = ({ title,
    video,
    videoPoster,
    videoTitle,
-   aboutLinks
+   aboutLinks,
+   image1
    }) => (
   <main className="Home">
     <PageHeader
@@ -26,10 +28,20 @@ export const HomePageTemplate = ({ title,
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
-
     <section className="section">
       <div className="container text">
         <Content source={missionStatement} />
+      </div>
+    </section>
+    <section className="section">
+      <div className="container relative">
+      {image1 && (
+        <Image
+        background
+        resolutions="large"
+        src={image1}
+        alt={title}/>
+      )}
       </div>
     </section>
     <section className="section">
@@ -80,6 +92,7 @@ export const pageQuery = graphql`
         video
         videoPoster
         videoTitle
+        image1
         aboutLinks {
           title
           content
