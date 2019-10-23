@@ -9,21 +9,24 @@ subtitle: >-
 whatWeDo: |-
   # **_What_ We Do**
 
-  ## We use technology to make businesses better.
-howWeDo: >-
+  ##
+whatWeDoBody: '## We use technology to make businesses better.'
+howWeDo: |-
   # **_How_ We Do It**
 
-
-  ## We do it by consulting first, and creating second. 
+  ##
+howWeDoItBody: >-
+  ## We do it by consulting first, and creating second.
 
 
   ## Unlike many software companies, we begin our process with the customer
   instead of the product. This allows us to focus our efforts on your business
   when designing the software, not the general market.
-whyWeDo: >-
+whyWeDo: |-
   # **_Why_ We Do It**
 
-
+  ##
+whyWeDoItBody: >-
   ## We do it because we believe technology is the key to unlocking human
   potential.
 image1: >-
