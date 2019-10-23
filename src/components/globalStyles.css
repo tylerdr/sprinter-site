@@ -218,6 +218,10 @@ blockquote {
 .container.skinnier {
   max-width: 555px;
 }
+.container.full-width {
+  width: 100%;
+  max-width: 100%;
+}
 
 /* Buttons */
 

@@ -34,10 +34,9 @@ export const HomePageTemplate = ({ title,
       </div>
     </section>
     <section className="section">
-      <div className="container relative">
+      <div className="container full-width relative">
       {image1 && (
         <Image
-        background
         resolutions="large"
         src={image1}
         alt={title}/>
@@ -103,5 +102,4 @@ export const pageQuery = graphql`
         }
       }
     }
-  }
-`
+  }`
