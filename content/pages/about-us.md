@@ -33,7 +33,7 @@ image1: >-
   https://ucarecdn.com/d144cc14-a9e9-49e1-911a-34d40fab021a/-/preview/-/enhance/91/
 image2: >-
   https://ucarecdn.com/ffd8707b-5ad9-403d-822b-89d0f0917aaf/-/preview/-/rotate/90/
-image3: 'https://ucarecdn.com/f79585c0-b059-4f7a-8db8-5f4a8eab813e/'
+image3: 'https://ucarecdn.com/af5aadc7-ff1a-47d4-a89c-e72cdfa88898/'
 video: 'https://ucarecdn.com/73d84b3b-a3ba-40b9-98df-07a5b56ff753/'
 videoPoster: 'https://ucarecdn.com/d0a5c14a-57d5-4aad-a632-811b1a270d0b/'
 videoTitle: '                                                                     '
