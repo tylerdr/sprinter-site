@@ -28,4 +28,5 @@
 
 .LazyImage.faded {
   opacity: 1;
+  width: 100%;
 }

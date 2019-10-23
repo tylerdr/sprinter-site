@@ -7,7 +7,6 @@ import Layout from '../components/Layout'
 import BackgroundVideo from '../components/BackgroundVideo'
 import AboutUsLink from '../components/AboutUsLink'
 import Image from '../components/Image'
-import './HomePage.css'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title,
@@ -29,7 +28,7 @@ export const HomePageTemplate = ({ title,
       backgroundImage={featuredImage}
     />
     <section className="section">
-      <div className="container text">
+      <div className="container header-text">
         <Content source={missionStatement} />
       </div>
     </section>
@@ -37,6 +36,7 @@ export const HomePageTemplate = ({ title,
       <div className="container full-width relative">
       {image1 && (
         <Image
+        className="full-width-image"
         resolutions="large"
         src={image1}
         alt={title}/>
@@ -44,7 +44,7 @@ export const HomePageTemplate = ({ title,
       </div>
     </section>
     <section className="section">
-      <div className="container text">
+      <div className="container header-text">
         <Content source={visionStatement} />
       </div>
     </section>
