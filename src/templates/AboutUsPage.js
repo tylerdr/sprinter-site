@@ -20,7 +20,10 @@ export const AboutUsPageTemplate = ({
   gallery,
   image1,
   image2,
-  image3
+  image3,
+  whatWeDoBody,
+  howWeDoItBody,
+  whyWeDoItBody
 }) => (
   <main>
     <PageHeader
@@ -29,8 +32,11 @@ export const AboutUsPageTemplate = ({
       backgroundImage={featuredImage}
     />
     <section className="section">
-      <div className="container">
+      <div className="container header-text">
         <Content source={whatWeDo} />
+      </div>
+      <div className="container body-text">
+        <Content source={whatWeDoBody}/>
       </div>
     </section>
     <section className="section">
@@ -45,8 +51,11 @@ export const AboutUsPageTemplate = ({
       </div>
     </section>
     <section className="section">
-      <div className="container">
+      <div className="container header-text">
         <Content source={howWeDo} />
+      </div>
+      <div className="container body-text">
+        <Content source={howWeDoItBody}/>
       </div>
     </section>
     <section className="section">
@@ -61,8 +70,11 @@ export const AboutUsPageTemplate = ({
       </div>
     </section>
     <section className="section">
-      <div className="container">
+      <div className="container header-text">
         <Content source={whyWeDo} />
+      </div>
+      <div className="container body-text">
+        <Content source={whyWeDoItBody}/>
       </div>
     </section>
     <section className="section">
@@ -116,6 +128,9 @@ export const pageQuery = graphql`
         whatWeDo
         whyWeDo
         howWeDo
+        whatWeDoBody
+        whyWeDoItBody
+        howWeDoItBody
         image1
         image2
         image3

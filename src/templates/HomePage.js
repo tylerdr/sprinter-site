@@ -28,7 +28,7 @@ export const HomePageTemplate = ({ title,
       backgroundImage={featuredImage}
     />
     <section className="section">
-      <div className="container header-text">
+      <div className="container home-text">
         <Content source={missionStatement} />
       </div>
     </section>
@@ -44,7 +44,7 @@ export const HomePageTemplate = ({ title,
       </div>
     </section>
     <section className="section">
-      <div className="container header-text">
+      <div className="container home-text">
         <Content source={visionStatement} />
       </div>
     </section>

@@ -263,7 +263,17 @@ blockquote {
 }
 
 
-.header-text {
+.home-text {
   text-align: center;
   font-size: 1.5em;
+}
+
+.header-text {
+  font-size: 3em;
+  font-family: "PT Serif script=all rev=2";
+}
+
+.body-text {
+  font-family: "Open Sans script=all rev=1";
+
 }
