@@ -221,7 +221,6 @@ blockquote {
 .container.full-width {
   width: 100%;
   max-width: 100%;
-  height: 400px;
 }
 
 /* Buttons */
@@ -282,4 +281,11 @@ blockquote {
 
 .header-text h1 {
   margin: 0px;
+}
+
+.inline-block {
+  display: inline-block
+}
+.inline-half {
+  width: 50%
 }

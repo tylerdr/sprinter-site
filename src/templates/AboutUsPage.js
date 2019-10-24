@@ -23,7 +23,10 @@ export const AboutUsPageTemplate = ({
   image3,
   whatWeDoBody,
   howWeDoItBody,
-  whyWeDoItBody
+  whyWeDoItBody,
+  imageA,
+  imageB,
+  imageC
 }) => (
   <main>
     <PageHeader
@@ -40,31 +43,31 @@ export const AboutUsPageTemplate = ({
       </div>
     </section>
     <section className="section">
-      <div className="container full-width relative">
-      {image1 && (
+      <div className="container full-width relative" style={{height: imageA.imageHeight}}>
+      {imageA.imageLink && (
         <Image
         className="full-width-image"
         resolutions="large"
-        src={image1}
+        src={imageA.imageLink}
         alt={title}/>
       )}
       </div>
     </section>
     <section className="section">
+      <div className="inline-block inline-half">
       <div className="container header-text">
         <Content source={howWeDo} />
       </div>
       <div className="container body-text">
         <Content source={howWeDoItBody}/>
       </div>
-    </section>
-    <section className="section">
-      <div className="container full-width relative">
-      {image2 && (
+      </div>
+      <div className="container inline-block inline-half relative" style={{height: imageB.imageHeight}}>
+      {imageB.imageLink && (
         <Image
         className="full-width-image"
         resolutions="large"
-        src={image2}
+        src={imageB.imageLink}
         alt={title}/>
       )}
       </div>
@@ -78,12 +81,12 @@ export const AboutUsPageTemplate = ({
       </div>
     </section>
     <section className="section">
-      <div className="container full-width relative">
-      {image3 && (
+      <div className="container full-width relative" style={{height: imageC.imageHeight}}>
+      {imageC.imageLink && (
         <Image
         className="full-width-image"
         resolutions="large"
-        src={image3}
+        src={imageC.imageLink}
         alt={title}/>
       )}
       </div>
@@ -134,6 +137,18 @@ export const pageQuery = graphql`
         image1
         image2
         image3
+        imageA {
+          imageLink
+          imageHeight
+        }
+        imageB {
+          imageLink
+          imageHeight
+        }
+        imageC {
+          imageLink
+          imageHeight
+        }
         accordion {
           title
           description
