@@ -9,13 +9,14 @@ missionStatement: >-
   # Our mission is to unlock human potential by leveraging the power of
   technology to have the most positive impact.
 visionStatement: >-
-  # _**We envision a world where work and life are seamlessly intertwined
-  through the freeing power of modern technology.**_
+  # **_We envision a world where work and life are seamlessly intertwined
+  through the freeing power of modern technology._**
 
 
   ![]()
 richText: Rich Text Area
-image1: 'https://ucarecdn.com/f42cd143-828f-4ed2-b4be-1238eef1ec60/'
+image1: >-
+  https://ucarecdn.com/d227f8e0-9b5d-435b-8000-e37eb2e47119/-/crop/634x744/0,207/-/preview/-/enhance/92/
 video: 'https://ucarecdn.com/11e5e0cf-ac08-4582-ab13-db4992234a21/'
 videoPoster: 'https://ucarecdn.com/0e262285-0c89-4147-a833-e8e82dab74b7/'
 videoTitle: '                                                                                                                                                                                                      '
