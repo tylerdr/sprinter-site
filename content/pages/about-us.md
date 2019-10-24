@@ -31,13 +31,16 @@ whyWeDoItBody: >-
   potential.
 imageA:
   imageHeight: 500px
-  imageLink: 'https://ucarecdn.com/a1eaeceb-de02-44ae-ab12-f631c690ffbf/'
+  imageLink: >-
+    https://ucarecdn.com/7d1eca32-1d13-4d31-bdff-62d560bd6879/-/crop/1050x409/0,291/-/preview/-/enhance/98/
 imageB:
   imageHeight: 500px
-  imageLink: 'https://ucarecdn.com/dc461ab7-60c6-4aa2-a9a0-81c23fa830da/'
+  imageLink: >-
+    https://ucarecdn.com/f71ec538-969c-4042-8111-f64c8733c726/-/crop/1050x532/0,169/-/preview/-/enhance/94/
 imageC:
   imageHeight: 450px
-  imageLink: 'https://ucarecdn.com/b59355d5-90b0-422c-b204-41ef15c8887e/'
+  imageLink: >-
+    https://ucarecdn.com/de136dda-a3df-4a16-82db-dc2d7758fdb9/-/crop/634x355/0,596/-/preview/-/enhance/100/
 image1: >-
   https://ucarecdn.com/d144cc14-a9e9-49e1-911a-34d40fab021a/-/crop/1052x582/0,118/-/preview/-/enhance/91/
 image2: >-
