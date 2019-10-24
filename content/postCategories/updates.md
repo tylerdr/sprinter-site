@@ -2,6 +2,7 @@
 template: BlogIndex
 title: Podcasts
 subtitle: ''
-featuredImage: 'https://ucarecdn.com/83a3c73d-f234-4086-9fad-cee3a9626230/'
+featuredImage: >-
+  https://ucarecdn.com/198e59ac-50df-461c-b5ea-bee413753761/-/preview/-/enhance/100/
 ---
 
