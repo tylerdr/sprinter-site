@@ -62,6 +62,8 @@ export const AboutUsPageTemplate = ({
       <div className="container full-width relative">
       {image2 && (
         <Image
+        backgroundImageHeight={'800px'}
+        background={true}
         className="full-width-image"
         resolutions="large"
         src={image2}
@@ -81,6 +83,7 @@ export const AboutUsPageTemplate = ({
       <div className="container full-width relative">
       {image3 && (
         <Image
+          background={false}
         className="full-width-image"
         resolutions="large"
         src={image3}

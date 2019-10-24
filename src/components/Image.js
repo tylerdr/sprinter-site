@@ -53,6 +53,7 @@ class Image extends React.Component {
   render() {
     let {
       background,
+      backgroundImageHeight,
       backgroundSize = 'cover',
       resolutions = '1000x',
       className = '',
@@ -65,6 +66,8 @@ class Image extends React.Component {
       alt = '',
       lazy = true
     } = this.props
+
+    console.log(this.props);
 
     const isUploadcare = this.checkIsUploadcare(src),
       fullImage = !isUploadcare || !lazy
@@ -87,15 +90,19 @@ class Image extends React.Component {
       isUploadcare ? '-/progressive/yes/-/format/auto/-/resize/10x/' : ''
     }`
 
+    let height = backgroundImageHeight;
     let style = {}
     if (background) {
       style = {
         backgroundImage: `url(${
           this.state.isIntersecting ? fullSrc : smallSrc
         })`,
-        backgroundSize
+        backgroundSize,
+        height
       }
     }
+
+    console.log('STYLE',style);
 
     return (
       <Fragment>
@@ -106,7 +113,8 @@ class Image extends React.Component {
               ref={this.ref}
               style={{
                 backgroundImage: `url(${smallSrc})`,
-                backgroundSize: 'cover'
+                backgroundSize: 'cover',
+                height: height
               }}
             >
               {!background && (
@@ -159,8 +167,8 @@ class Image extends React.Component {
   }
 }
 
-Image.propTypes = {
-  alt: PropTypes.string.isRequired
-}
+// Image.propTypes = {
+//   alt: PropTypes.string.isRequired
+// }
 
 export default Image

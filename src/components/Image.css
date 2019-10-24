@@ -3,8 +3,11 @@
   width: 100%;
 }
 
-.BackgroundImage {
+.absolute {
   position: absolute;
+}
+
+.BackgroundImage {
   top: 0;
   left: 0;
   bottom: 0;

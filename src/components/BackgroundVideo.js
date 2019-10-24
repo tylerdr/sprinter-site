@@ -5,11 +5,11 @@ import Image from './Image'
 import './BackgroundVideo.css'
 
 class BackgroundVideo extends Component {
-  _isMounted = false;
-sad
-  state = {
-    isLoading: true
-  }
+//   _isMounted = false;
+// // sad
+// //   state = {
+// //     isLoading: true
+// //   }
 
   constructor(props) {
     super(props)
@@ -17,8 +17,8 @@ sad
   }
   state = {
     playing: false,
-    mobileWidth: false,
-    loading: true
+    mobileWidth: false
+    // loading: true
   }
 
   updateDimensions() {
@@ -34,22 +34,23 @@ sad
   }
 
   componentDidMount() {
-    this._isMounted = true;
+    // this._isMounted = true;
     this.updateDimensions()
-    window.addEventListener('resize', () => {
-        if (this._isMounted) {
-          this.setState({ isLoading: false })
-        }
-        return this.updateDimensions();
-      }
-    )
+    window.addEventListener('resize', () => this.updateDimensions())
+      // {
+      //   if (this._isMounted) {
+      //     this.setState({ isLoading: false })
+      //   }
+      //   return this.updateDimensions();
+      // }
+    // )
     ReactDOM.findDOMNode(this.ref.current).addEventListener('playing', e =>
       this.handelPlay(e)
     )
   }
 
   componentWillUnmount() {
-    this._isMounted = false;
+    // this._isMounted = false;
     window.removeEventListener('resize', this.updateDimensions)
   }
 
