@@ -7,10 +7,10 @@ featuredImage: >-
 subtitle: '# **Discovering Tomorrow''s Technology Today**'
 missionStatement: >-
   # Our mission is to unlock human potential by leveraging the power of
-  technology to have the most positive impact. test
+  technology to have the most positive impact.
 visionStatement: >-
-  # **_We envision a world where work and life are seamlessly intertwined
-  through the freeing power of modern technology._**
+  # _**We envision a world where work and life are seamlessly intertwined
+  through the freeing power of modern technology.**_
 
 
   ![]()
