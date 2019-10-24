@@ -165,13 +165,25 @@ collections: # A list of collections the CMS should be able to edit
           - { label: How We Do It, name: howWeDo, widget: markdown }
           - { label: How We Do It Body, name: howWeDoItBody, widget: markdown }
           - { label: Why We Do It, name: whyWeDo, widget: markdown }
-          - label: Image
-            name: image
+          - { label: Why We Do It Body, name: whyWeDoItBody, widget: markdown }
+          - label: Image A
+            name: imageA
             widget: 'object'
             fields:
               - { label: Image Link, name: imageLink, widget: image, required: false }
-              - { label: Image Size, name: imageSize, widget: string, required: false }
-          - { label: Why We Do It Body, name: whyWeDoItBody, widget: markdown }
+              - { label: Image Height, name: imageHeight, widget: string, required: false }
+          - label: Image B
+            name: imageB
+            widget: 'object'
+            fields:
+              - { label: Image Link, name: imageLink, widget: image, required: false }
+              - { label: Image Height, name: imageHeight, widget: string, required: false }
+          - label: Image C
+            name: imageC
+            widget: 'object'
+            fields:
+              - { label: Image Link, name: imageLink, widget: image, required: false }
+              - { label: Image Height, name: imageHeight, widget: string, required: false }  
           - { label: Image 1, name: image1, widget: image, required: false }
           - { label: Image 2, name: image2, widget: image, required: false }
           - { label: Image 3, name: image3, widget: image, required: false }
