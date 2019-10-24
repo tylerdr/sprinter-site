@@ -15,6 +15,9 @@ visionStatement: >-
 
   ![]()
 richText: Rich Text Area
+image:
+  imageHeight: 500px
+  imageLink: 'https://ucarecdn.com/a34badd0-cb4a-4753-8d87-a480515b856a/'
 image1: >-
   https://ucarecdn.com/a5b042f0-1300-43b5-96e4-5e9ed3c3447a/-/crop/1052x488/0,147/-/preview/-/enhance/100/
 video: 'https://ucarecdn.com/11e5e0cf-ac08-4582-ab13-db4992234a21/'
