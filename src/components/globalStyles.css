@@ -279,13 +279,14 @@ blockquote {
   background-color: var(--bg2);
 }
 
-.header-text h1 {
-  margin: 0px;
-}
-
 .inline-block {
   display: inline-block
 }
 .inline-half {
   width: 50%
+}
+
+
+.header-text, .body-text {
+  margin-left: 40px;
 }
