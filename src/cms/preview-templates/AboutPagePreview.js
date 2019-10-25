@@ -3,17 +3,16 @@ import PropTypes from 'prop-types'
 import { AboutUsPageTemplate } from '../../templates/AboutUsPage'
 
 const AboutPagePreview = ({ entry, widgetFor }) => (
-    <AboutUsPageTemplate
-    title={entry.getIn(['data', 'title'])}
-    featuredImage={getAsset(entry.getIn(['data', 'featuredImage']))}
-    />
+            <AboutUsPageTemplate
+            title={entry.getIn(['data', 'title'])}
+            subtitle={entry.getIn(['data', 'subtitle'])}
+            />
 )
 
 AboutPagePreview.propTypes = {
     entry: PropTypes.shape({
         getIn: PropTypes.func,
     }),
-    getAsset: PropTypes.func,
 }
 
 export default AboutPagePreview
