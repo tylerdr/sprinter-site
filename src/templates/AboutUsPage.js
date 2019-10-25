@@ -29,6 +29,7 @@ export const AboutUsPageTemplate = ({
   imageC
 }) => (
   <main>
+    {console.log("THIS IS GOING TO PREVIEW TEMP")}
     <PageHeader
       title={title}
       subtitle={subtitle}
@@ -121,6 +122,8 @@ const AboutUsPage = ({ data: { page } }) => (
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
   >
+    {console.log("THIS IS GOING TO PREVIEW TEMP")}
+
     <AboutUsPageTemplate {...page} {...page.frontmatter} body={page.html} />
   </Layout>
 )
