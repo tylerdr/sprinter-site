@@ -22,6 +22,8 @@ if (
   CMS.registerPreviewStyle('/styles.css')
 }
 
+
+
 CMS.registerPreviewTemplate('home-page', ({ entry }) => (
   <HomePageTemplate {...entry.toJS().data} />
 ))
@@ -40,4 +42,7 @@ CMS.registerPreviewTemplate('blog-page', ({ entry }) => (
 CMS.registerPreviewTemplate('posts', ({ entry }) => (
   <SinglePostTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('about-us', AboutPagePreview)
+//CMS.registerPreviewTemplate('about-us', AboutPagePreview)
+CMS.registerPreviewTemplate('about-us', ({ entry }) => (
+  <AboutUsPageTemplate {...entry.toJS().data} />
+))
