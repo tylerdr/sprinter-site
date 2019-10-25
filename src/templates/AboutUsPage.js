@@ -54,24 +54,27 @@ export const AboutUsPageTemplate = ({
       </div>
     </section>
     <section className="section">
-      <div className="inline-block inline-half">
       <div className="container header-text">
         <Content source={howWeDo} />
       </div>
-      <div className="container body-text">
-        <Content source={howWeDoItBody}/>
-      </div>
-      </div>
-      <div className="container inline-block inline-half relative" style={{height: imageB.imageHeight}}>
-      {imageB.imageLink && (
-        <Image
-        backgroundImageHeight={'800px'}
-        background={true}
-        className="full-width-image"
-        resolutions="large"
-        src={imageB.imageLink}
-        alt={title}/>
-      )}
+      <div className="flex-container container">
+        <div className="flex-children min-width-300">
+          <div className="body-text">
+            <Content source={howWeDoItBody}/>
+          </div>
+        </div>
+        <div className="flex-children min-width-300 relative rl-padding-1em">
+        {imageB.imageLink && (
+          <Image
+          backgroundImageHeight={imageB.imageHeight}
+          backgroundImageWidth={"100%"} //apply variable here
+          background={false}
+          className="full-width-image relative"
+          resolutions="large"
+          src={imageB.imageLink}
+          alt={title}/>
+        )}
+        </div>
       </div>
     </section>
     <section className="section">
@@ -83,7 +86,7 @@ export const AboutUsPageTemplate = ({
       </div>
     </section>
     <section className="section">
-      <div className="container full-width relative" style={{height: imageC.imageHeight}}>
+      <div className="container full-width relative">
       {imageC.imageLink && (
         <Image
           background={false}

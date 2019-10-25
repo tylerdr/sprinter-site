@@ -280,13 +280,31 @@ blockquote {
 }
 
 .inline-block {
-  display: inline-block
+  /*display: inline-block*/
 }
 .inline-half {
-  width: 50%
+  /*width: 50%*/
 }
 
 
-.header-text, .body-text {
+.margin-left-40 {
   margin-left: 40px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-children {
+  width: 0;
+  flex-grow: 1;
+}
+
+.min-width-300 {
+  min-width: 300px;
+}
+
+.rl-padding-1em {
+  padding: 0 1em;
 }
