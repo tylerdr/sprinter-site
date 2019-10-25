@@ -35,10 +35,10 @@ export const AboutUsPageTemplate = ({
       backgroundImage={featuredImage}
     />
     <section className="section">
-      <div className="container header-text">
+      <div className="container header-text margin-left-40">
         <Content source={whatWeDo} />
       </div>
-      <div className="container body-text">
+      <div className="container body-text margin-left-40">
         <Content source={whatWeDoBody}/>
       </div>
     </section>
@@ -46,18 +46,19 @@ export const AboutUsPageTemplate = ({
       <div className="container full-width relative" style={{height: imageA.imageHeight}}>
       {imageA.imageLink && (
         <Image
-        className="full-width-image"
+        background
         resolutions="large"
         src={imageA.imageLink}
-        alt={title}/>
+        alt={title}
+        size="cover"/>
       )}
       </div>
     </section>
     <section className="section">
-      <div className="container header-text">
+      <div className="container header-text margin-left-40">
         <Content source={howWeDo} />
       </div>
-      <div className="flex-container container">
+      <div className="flex-container container margin-left-40">
         <div className="flex-children min-width-300">
           <div className="body-text">
             <Content source={howWeDoItBody}/>
@@ -78,10 +79,10 @@ export const AboutUsPageTemplate = ({
       </div>
     </section>
     <section className="section">
-      <div className="container header-text">
+      <div className="container header-text margin-left-40">
         <Content source={whyWeDo} />
       </div>
-      <div className="container body-text">
+      <div className="container body-text margin-left-40">
         <Content source={whyWeDoItBody}/>
       </div>
     </section>
