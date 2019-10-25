@@ -29,6 +29,18 @@ whyWeDo: |-
 whyWeDoItBody: >-
   ## We do it because we believe technology is the key to unlocking human
   potential.
+imageA:
+  imageHeight: 500px
+  imageLink: >-
+    https://ucarecdn.com/7d1eca32-1d13-4d31-bdff-62d560bd6879/-/crop/1050x409/0,291/-/preview/-/enhance/98/
+imageB:
+  imageHeight: 500px
+  imageLink: >-
+    https://ucarecdn.com/f71ec538-969c-4042-8111-f64c8733c726/-/crop/1050x532/0,169/-/preview/-/enhance/94/
+imageC:
+  imageHeight: 450px
+  imageLink: >-
+    https://ucarecdn.com/de136dda-a3df-4a16-82db-dc2d7758fdb9/-/crop/634x355/0,596/-/preview/-/enhance/100/
 image1: >-
   https://ucarecdn.com/d144cc14-a9e9-49e1-911a-34d40fab021a/-/crop/1052x582/0,118/-/preview/-/enhance/91/
 image2: >-

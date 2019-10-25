@@ -18,7 +18,8 @@ export const HomePageTemplate = ({ title,
    videoPoster,
    videoTitle,
    aboutLinks,
-   image1
+   image1,
+   image
    }) => (
   <main className="Home">
     <PageHeader
@@ -33,12 +34,12 @@ export const HomePageTemplate = ({ title,
       </div>
     </section>
     <section className="section">
-      <div className="container full-width relative">
-      {image1 && (
+      <div className="container full-width relative" style={{height: image.imageHeight}}>
+      {image && (
         <Image
         className="full-width-image"
         resolutions="large"
-        src={image1}
+        src={image.imageLink}
         alt={title}/>
       )}
       </div>
@@ -92,6 +93,10 @@ export const pageQuery = graphql`
         videoPoster
         videoTitle
         image1
+        image {
+          imageHeight
+          imageLink
+        }
         aboutLinks {
           title
           content
