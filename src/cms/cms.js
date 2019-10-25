@@ -11,18 +11,18 @@ import { SinglePostTemplate } from '../templates/SinglePost'
 import { AboutUsPageTemplate } from '../templates/AboutUsPage'
 import { AboutPagePreview } from './preview-templates/AboutPagePreview'
 
-if (
-  window.location.hostname === 'localhost' &&
-  window.localStorage.getItem('netlifySiteURL')
-) {
-  CMS.registerPreviewStyle(
-    window.localStorage.getItem('netlifySiteURL') + '/styles.css'
-  )
-} else {
-  CMS.registerPreviewStyle('/styles.css')
-}
+// if (
+//   window.location.hostname === 'localhost' &&
+//   window.localStorage.getItem('netlifySiteURL')
+// ) {
+//   CMS.registerPreviewStyle(
+//     window.localStorage.getItem('netlifySiteURL') + '/styles.css'
+//   )
+// } else {
+//   CMS.registerPreviewStyle('/styles.css')
+// }
 
-
+CMS.registerPreviewStyle('../components/globalStyles.css')
 
 CMS.registerPreviewTemplate('home-page', ({ entry }) => (
   <HomePageTemplate {...entry.toJS().data} />
