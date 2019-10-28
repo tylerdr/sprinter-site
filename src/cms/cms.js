@@ -42,4 +42,6 @@ CMS.registerPreviewTemplate('blog-page', ({ entry }) => (
 CMS.registerPreviewTemplate('posts', ({ entry }) => (
   <SinglePostTemplate {...entry.toJS().data} />
 ))
-//CMS.registerPreviewTemplate('about-us-page', AboutPagePreview)
+CMS.registerPreviewTemplate('about-us-page', ({ entry }) => (
+  <AboutUsPageTemplate {...entry.toJS().data} />
+))
