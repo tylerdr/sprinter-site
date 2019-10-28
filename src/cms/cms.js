@@ -42,6 +42,23 @@ CMS.registerPreviewTemplate('blog-page', ({ entry }) => (
 CMS.registerPreviewTemplate('posts', ({ entry }) => (
   <SinglePostTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('about-us-page', ({ entry }) => (
-  <AboutUsPageTemplate {...entry.toJS().data} />
-))
+
+
+
+var AboutPreview = createClass({
+  render: function() {
+    entry = this.props.entry;
+    var imageA = entry.getIn(['data', 'imageA']);
+    var bg = this.props.getAsset(imageA);
+    return h('div', {},
+    h('h1', {}, entry.getIn(['data', 'title'])),
+    h('img', {src: bg.toString()}),
+    h('div', {"className": "whatWeDo"}, this.props.widgetFor('whatWeDoBody'))
+    )
+  }
+});
+
+
+CMS.registerPreviewTemplate("about-us-page", AboutPreview)
+
+//CMS.registerPreviewTemplate('about-us-page', AboutPagePreview)
