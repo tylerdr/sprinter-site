@@ -22,7 +22,7 @@ import { AboutPagePreview } from './preview-templates/AboutPagePreview'
 //   CMS.registerPreviewStyle('/styles.css')
 // }
 
-CMS.registerPreviewStyle('../components/globalStyles.css')
+CMS.registerPreviewStyle("../components/globalStyles.css")
 
 CMS.registerPreviewTemplate('home-page', ({ entry }) => (
   <HomePageTemplate {...entry.toJS().data} />

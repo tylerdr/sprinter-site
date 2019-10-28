@@ -5,6 +5,8 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content.js'
 import Layout from '../components/Layout.js'
 import Image from '../components/Image'
+/** @jsx jsx */
+import { jsx } from "theme-ui"
 //import Accordion from '../components/Accordion'
 //import Gallery from '../components/Gallery'
 //import Popup from '../components/Popup'
@@ -55,22 +57,21 @@ export const AboutUsPageTemplate = ({
       <div className="container header-text margin-left-40">
         <Content source={howWeDo} />
       </div>
-      <div className="flex-container container margin-left-40">
+      <div className="flex-container margin-left-40">
         <div className="flex-children min-width-300">
           <div className="body-text">
             <Content source={howWeDoItBody}/>
           </div>
         </div>
-        <div className="flex-children min-width-300 relative rl-padding-1em">
+        <div className="flex-children min-width-300 relative rl-margin-1em">
         {imageB.imageLink && (
           <Image
-          backgroundImageHeight={imageB.imageHeight}
-          backgroundImageWidth={"100%"} //apply variable here
-          background={false}
+          background
           className="full-width-image relative"
           resolutions="large"
           src={imageB.imageLink}
-          alt={title}/>
+          alt={title}
+          size="cover"/>
         )}
         </div>
       </div>
@@ -84,15 +85,16 @@ export const AboutUsPageTemplate = ({
       </div>
     </section>
     <section className="section">
-      <div className="container full-width relative">
-      {imageC.imageLink && (
-        <Image
-          background={false}
-        className="full-width-image"
-        resolutions="large"
-        src={imageC.imageLink}
-        alt={title}/>
-      )}
+      <div className="container full-width relative" style={{height: imageA.imageHeight}}>
+        {imageC.imageLink && (
+          <Image
+          background
+          className="full-width-image"
+          resolutions="large"
+          src={imageC.imageLink}
+          alt={title}
+          size="cover"/>
+        )}
       </div>
     </section>
 
@@ -120,7 +122,12 @@ const AboutUsPage = ({ data: { page } }) => (
   >
     {console.log("THIS IS GOING TO PREVIEW TEMP")}
 
-    <AboutUsPageTemplate {...page} {...page.frontmatter} body={page.html} />
+    <AboutUsPageTemplate 
+    sx={{
+      fontFamily: "body",
+      backgroundColor: "text" 
+    }}
+    {...page} {...page.frontmatter} body={page.html} />
   </Layout>
 )
 

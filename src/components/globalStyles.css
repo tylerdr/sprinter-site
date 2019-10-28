@@ -286,6 +286,7 @@ blockquote {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  width: 90%;
 }
 
 .flex-children {
@@ -297,6 +298,6 @@ blockquote {
   min-width: 300px;
 }
 
-.rl-padding-1em {
-  padding: 0 1em;
+.rl-margin-1em {
+  margin: 0 1em;
 }

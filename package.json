@@ -8,6 +8,8 @@
     "url": "https://github.com/twd-0004/sprinter-site"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.22",
+    "@mdx-js/react": "^1.5.1",
     "@reach/router": "^1.2.1",
     "date-fns": "^1.30.1",
     "dom-form-serializer": "^1.0.7",
@@ -26,6 +28,7 @@
     "gatsby-plugin-sass": "^2.1.20",
     "gatsby-plugin-sharp": "^2.2.32",
     "gatsby-plugin-sitemap": "^2.2.19",
+    "gatsby-plugin-theme-ui": "^0.2.43",
     "gatsby-plugin-typography": "^2.3.14",
     "gatsby-plugin-use-dark-mode": "^1.1.2",
     "gatsby-remark-images": "^3.1.28",
@@ -54,6 +57,7 @@
     "react-social-icons": "^4.1.0",
     "react-typography": "^0.16.19",
     "slate": "^0.47.8",
+    "theme-ui": "^0.2.46",
     "typography": "^0.16.19",
     "use-dark-mode": "^2.3.1"
   },

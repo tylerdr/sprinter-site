@@ -9,6 +9,7 @@ module.exports = {
     // 'gatsby-plugin-use-dark-mode',
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
+    "gatsby-plugin-theme-ui",
     {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
