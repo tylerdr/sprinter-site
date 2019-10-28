@@ -17,10 +17,6 @@ export const AboutUsPageTemplate = ({
   whatWeDo,
   whyWeDo,
   howWeDo,
-  gallery,
-  image1,
-  image2,
-  image3,
   whatWeDoBody,
   howWeDoItBody,
   whyWeDoItBody,
@@ -144,9 +140,6 @@ export const pageQuery = graphql`
         whatWeDoBody
         whyWeDoItBody
         howWeDoItBody
-        image1
-        image2
-        image3
         imageA {
           imageLink
           imageHeight
@@ -158,10 +151,6 @@ export const pageQuery = graphql`
         imageC {
           imageLink
           imageHeight
-        }
-        accordion {
-          title
-          description
         }
       }
     }
