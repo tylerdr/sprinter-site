@@ -2,10 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { AboutUsPageTemplate } from '../../templates/AboutUsPage'
 
-export const AboutPagePreview = ({ entry, widgetFor }) => (
+const AboutPagePreview = ({ entry }) => (
             <AboutUsPageTemplate
             title={entry.getIn(['data', 'title'])}
-            whatWeDo={widgetFor("whatWeDo")}
             />
 )
 
@@ -14,3 +13,7 @@ AboutPagePreview.propTypes = {
         getIn: PropTypes.func,
     }),
 }
+
+
+
+export default AboutPagePreview

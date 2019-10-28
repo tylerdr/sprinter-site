@@ -184,28 +184,13 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - { label: Image Link, name: imageLink, widget: image, required: false }
               - { label: Image Height, name: imageHeight, widget: string, required: false }  
-          - { label: Image 1, name: image1, widget: image, required: false }
-          - { label: Image 2, name: image2, widget: image, required: false }
-          - { label: Image 3, name: image3, widget: image, required: false }
-          - { label: Extra1, name: extra1, widget: markdown, required: false }
-          - { label: Extra2, name: extra2, widget: markdown, required: false }
-          - { name: video, label: video, widget: file }
-          - { name: videoPoster, label: videoPoster, widget: image }
-          - { label: videoTitle, name: videoTitle, widget: string }
-          - label: 'accordion'
-            required: false
-            name: 'accordion'
-            widget: 'list'
-            fields:
-              - { name: title, label: title, widget: string, default: '' }
-              - { name: description, label: description, widget: string }
-          - label: 'Gallery'
-            name: 'gallery'
-            widget: 'list'
-            fields:
-              - { name: image, label: Image, widget: image }
-              - { name: alt, label: Alt, widget: string }
-              - { name: title, label: Title, widget: string, required: false }
+          # - label: 'Gallery'
+          #   name: 'gallery'
+          #   widget: 'list'
+          #   fields:
+          #     - { name: image, label: Image, widget: image }
+          #     - { name: alt, label: Alt, widget: string }
+          #     - { name: title, label: Title, widget: string, required: false }
           - label: 'Meta'
             required: false
             name: 'meta'
