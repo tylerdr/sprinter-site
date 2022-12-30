@@ -11,7 +11,7 @@
     "@reach/router": "^1.2.1",
     "date-fns": "^1.30.1",
     "dom-form-serializer": "^1.0.7",
-    "gatsby": "2.13.50",
+    "gatsby": "2.32.13",
     "gatsby-cli": "2.7.26",
     "gatsby-image": "^2.2.29",
     "gatsby-plugin-google-tagmanager": "^2.1.4",
